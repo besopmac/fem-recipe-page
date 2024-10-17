@@ -73,4 +73,9 @@
     font-display: swap;
     src: url(/fonts/outfit/Outfit-Black.woff2) format('woff2');
   }
+
+  body {
+    @apply bg-stone-100;
+    @apply font-[Outfit] font-normal text-stone-600 leading-6;
+  }
 }
