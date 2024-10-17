@@ -4,7 +4,7 @@ type Props = {
 
 const Card = ({ children }: Props) => {
   return (
-    <div className="bg-white sm:p-10 rounded-none sm:rounded-3xl">
+    <div className="bg-white pb-10 sm:p-10 rounded-none sm:rounded-3xl">
       {children}
     </div>
   )

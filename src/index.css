@@ -78,4 +78,12 @@
     @apply bg-stone-100;
     @apply font-[Outfit] font-normal text-stone-600 leading-6;
   }
+
+  .bullet {
+    @apply text-3xl text-brown-800 relative -top-[5px];
+  }
+
+  .table-cell {
+    @apply pl-8 py-3;
+  }
 }
